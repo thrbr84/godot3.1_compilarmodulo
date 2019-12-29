@@ -1,0 +1,52 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://main.gd" type="Script" id=1]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 1 )
+__meta__ = {
+"__editor_plugin_screen__": "3D"
+}
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Node2D" type="Node2D" parent="CanvasLayer"]
+scale = Vector2( 2.99178, 3 )
+
+[node name="BtnBanner" type="Button" parent="CanvasLayer/Node2D"]
+margin_left = 41.1508
+margin_top = 86.2686
+margin_right = 191.151
+margin_bottom = 161.269
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+disabled = true
+toggle_mode = true
+text = "Show/Hide Banner"
+
+[node name="BtnInterstitial" type="Button" parent="CanvasLayer/Node2D"]
+margin_left = 41.1508
+margin_top = 171.269
+margin_right = 191.151
+margin_bottom = 246.269
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+disabled = true
+text = "Show Interstitial"
+
+[node name="BtnRewardedVideo" type="Button" parent="CanvasLayer/Node2D"]
+margin_left = 41.1508
+margin_top = 260.269
+margin_right = 192.151
+margin_bottom = 335.269
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+disabled = true
+text = "Show Rewarded Video"
+
+[node name="LblRewarded" type="Label" parent="CanvasLayer/Node2D"]
+margin_right = 238.0
+margin_bottom = 69.0
+text = "TESTE ADMOB"
+align = 1
+valign = 1
+[connection signal="toggled" from="CanvasLayer/Node2D/BtnBanner" to="." method="_on_BtnBanner_toggled"]
+[connection signal="pressed" from="CanvasLayer/Node2D/BtnInterstitial" to="." method="_on_BtnInterstitial_pressed"]
+[connection signal="pressed" from="CanvasLayer/Node2D/BtnRewardedVideo" to="." method="_on_BtnRewardedVideo_pressed"]
