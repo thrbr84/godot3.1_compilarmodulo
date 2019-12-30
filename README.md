@@ -4,7 +4,7 @@
 Video com a explicação completa no meu canal do Youtube: 
 - https://www.youtube.com/watch?v=tqObq7XZ1KI
 
-[![Video com a explicação](https://img.youtube.com/vi/K-q4OrZAgHw/0.jpg)](https://www.youtube.com/watch?v=K-q4OrZAgHw)
+[![Video com a explicação](https://img.youtube.com/vi/Exm2Em4P_nk/0.jpg)](https://www.youtube.com/watch?v=Exm2Em4P_nk)
 
 
 ## Source da Godot: 
