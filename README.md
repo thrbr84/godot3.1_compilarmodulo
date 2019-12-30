@@ -51,6 +51,11 @@ Após estar com o ambiente preparado (SDK e JAVA), precisamos instalar o NDK e S
 
 ----------
 
+
+#### [EDIT]
+Só uma dica ae do nosso brother Rafael Pontes: tem um parâmetro -j "número de núcleos" para usar no comando scons abaixo. Com ele, o scons vai usar essa quantidade de núcleos do processador para paralelizar a compilação e fica incrivelmente mais rápida! Só é bom verificar quantos núcleos sua CPU tem para não colocar um número maior do que o disponível.
+
+
 ### (7) Fazer primeiro para RELEASE_DEBUG
 - scons platform=android target=release_debug android_arch=armv7
 - OBS: para limpar uma compilação e refazer ela, execute novamente os comandos scons, acrescentando o parâmetro "--clean"
