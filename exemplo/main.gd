@@ -55,7 +55,7 @@ func _on_admob_ad_loaded():
 
 func _on_interstitial_not_loaded():
 	print("Error: Interstitial not loaded")
-
+*
 func _on_interstitial_loaded():
 	print("Interstitial loaded")
 	get_node("CanvasLayer/Node2D/BtnInterstitial").set_disabled(false)
@@ -75,7 +75,7 @@ func _on_rewarded_video_ad_closed():
 	
 func _on_rewarded(currency, amount):
 	print("Reward: " + currency + ", " + str(amount))
-	get_node("CanvasLayer/Node2D/LblRewarded").set_text("Reward: " + currency + ", " + str(amount))
+	get_node("CanvasLayer/Node2D/LblRewarded*").set_text("Reward: " + currency + ", " + str(amount))
 
 # Resize
 

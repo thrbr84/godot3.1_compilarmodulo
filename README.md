@@ -1,11 +1,18 @@
-# Compilar Módulo: Godot 3.1.2
+# Compilar Módulo: Godot 3.1.2 - stable
+
+### Explicação
+Video com a explicação completa no meu canal do Youtube: 
+- https://www.youtube.com/watch?v=tqObq7XZ1KI
+
+[![Video com a explicação](https://img.youtube.com/vi/K-q4OrZAgHw/0.jpg)](https://www.youtube.com/watch?v=K-q4OrZAgHw)
+
 
 ## Source da Godot: 
 - https://github.com/godotengine/godot/releases
 - Fazer download do source code (zip) - 3.1.2-stable
 
 
-Se ainda não viu o vídeo anterior, onde mostro os primeiros passos para montar o ambiente android no Ubunto 18, veja pelo link abaixo:
+Se ainda não viu o vídeo anterior, onde mostro os primeiros passos para montar o ambiente android no Ubuntu 18, veja pelo link abaixo:
 
 ### (1) COMO PREPARAR O AMBIENTE (SDK, JAVA) - Parte 1
 https://www.youtube.com/watch?v=GUXQVwFlOMg
@@ -16,7 +23,7 @@ Após estar com o ambiente preparado (SDK e JAVA), precisamos instalar o NDK e S
 
 ### (2) Download Android NDK
 - https://developer.android.com/ndk/downloads?hl=pt-br
-- Descompactar em /home/$UESR/Android/Sdk/ndk-bundle
+- Descompactar em /home/$USER/Android/Sdk/ndk-bundle
 
 ----------
 
@@ -86,6 +93,9 @@ Após estar com o ambiente preparado (SDK e JAVA), precisamos instalar o NDK e S
 - Rewarded Video: ca-app-pub-3940256099942544/5224354917
 - Native Advanced: ca-app-pub-3940256099942544/2247696110
 - Native Advanced Video: ca-app-pub-3940256099942544/1044960115
+
+### ...
+Vai utilizar esse código de forma comercial? Fique tranquilo pode usar de forma livre e sem precisar mencionar nada, claro que vou ficar contente se pelo menos lembrar da ajuda e compartilhar com os amigos, rs. Caso sinta no coração, considere me pagar um cafezinho :heart: -> https://ko-fi.com/thiagobruno
 
 
 
